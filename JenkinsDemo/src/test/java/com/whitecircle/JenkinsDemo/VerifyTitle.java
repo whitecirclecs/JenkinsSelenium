@@ -2,6 +2,7 @@ package com.whitecircle.JenkinsDemo;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,9 +14,10 @@ WebDriver driver;
 	
 	@BeforeTest
 	public void openBrowser() {
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");		
-		driver = new ChromeDriver();	
-		driver.manage().window().maximize();
+		System.setProperty("webdriver.chrome.driver", "chromedriver");
+		ChromeOptions ChromeOptions = new ChromeOptions();
+		ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		driver = new ChromeDriver(ChromeOptions);		
 		driver.get("https://whitecircleschool.com/");		
 	}
 	
