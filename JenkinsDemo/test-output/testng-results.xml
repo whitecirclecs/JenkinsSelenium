@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-29T03:11:51Z" name="Default suite" finished-at="2018-11-29T03:12:03Z" duration-ms="11813">
+    <groups>
+    </groups>
+    <test started-at="2018-11-29T03:11:51Z" name="Default test" finished-at="2018-11-29T03:12:03Z" duration-ms="11813">
+      <class name="com.whitecircle.JenkinsDemo.VerifyTitle">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.whitecircle.JenkinsDemo.VerifyTitle@762ef0ea]" started-at="2018-11-29T03:11:51Z" name="openBrowser" finished-at="2018-11-29T03:12:00Z" duration-ms="9484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="titleVerification()[pri:0, instance:com.whitecircle.JenkinsDemo.VerifyTitle@762ef0ea]" started-at="2018-11-29T03:12:00Z" name="titleVerification" finished-at="2018-11-29T03:12:00Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.whitecircle.JenkinsDemo.VerifyTitle@762ef0ea]" started-at="2018-11-29T03:12:00Z" name="closeBrowser" finished-at="2018-11-29T03:12:03Z" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.whitecircle.JenkinsDemo.VerifyTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
