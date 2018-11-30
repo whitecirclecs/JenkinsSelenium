@@ -30,7 +30,7 @@ WebDriver driver;
 	
 	@AfterTest
 	public void closeBrowser() {
-		driver.close();
+		driver.quit();
 	}
 
 }
